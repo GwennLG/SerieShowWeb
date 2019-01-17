@@ -496,7 +496,7 @@ footer.compteur {
 						<li><a href="#"> Musicale </a></li>
 						<li><a href="#"> Action </a></li>
 					</ul>
-				<li><a href="/Pages/Connexion"> Connexion </a></li>
+				<li><a href="/SerieShow/ConnexionServlet"> Connexion </a></li>
 			</ul>
 		</nav>
 	</header>
@@ -625,8 +625,8 @@ footer.compteur {
 			</a>
 
 			<ul>
-				<a href="#">
-					<li>Contact</li>
+				<a href="/SerieShow/ConnexionServlet">
+					<li>Connexion</li>
 				</a>
 				<a href="#">
 					<li>Informations</li>
