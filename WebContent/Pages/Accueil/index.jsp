@@ -1,13 +1,13 @@
 
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html>
 
 <html dir="ltr" lang="fr">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Serie Show</title>
 <link rel="icon" href="C:/Users/Activ/Documents/HTML/SerieShow/images/iconTV.ico">
 <link href="TvTime.css" rel="stylesheet">
 <link
@@ -496,7 +496,7 @@ footer.compteur {
 						<li><a href="#"> Musicale </a></li>
 						<li><a href="#"> Action </a></li>
 					</ul>
-				<li><a href="#"> Connexion </a></li>
+				<li><a href="/Pages/Connexion"> Connexion </a></li>
 			</ul>
 		</nav>
 	</header>
