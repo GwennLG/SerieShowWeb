@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public final class DataBaseUser {
 	private static ArrayList<User> accounts = new ArrayList<User>(
-			Arrays.asList(new User("Administrateur", "admin@localhost", "Administrator", RoleUser.ADMIN)));
+			Arrays.asList(new User("Administrateur", "admin@local.host", "Administrator", RoleUser.ADMIN)));
 
 	public static final boolean register(final String pseudo, final String email, final String password) {
 		
