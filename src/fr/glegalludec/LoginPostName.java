@@ -1,8 +1,9 @@
 package fr.glegalludec;
 
 public enum LoginPostName {
-	USERNAME("username"),
+	EMAIL("email"),
 	PASSWORD("password"),
+	NAME("name"),
 	STAYCO("stayco");
 
 	private String name;
