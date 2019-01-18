@@ -4,6 +4,7 @@ public enum LoginPostName {
 	EMAIL("email"),
 	PASSWORD("password"),
 	NAME("name"),
+	USERNAME("username"),
 	STAYCO("stayco"),
 	PASSWORD_C("passwordm"),
 	PASSWORD_CF("passwordc");
