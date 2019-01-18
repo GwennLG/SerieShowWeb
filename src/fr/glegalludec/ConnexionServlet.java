@@ -44,7 +44,7 @@ public class ConnexionServlet extends HttpServlet {
 			return;
 		} else {
 			// Si une session existe, on redirige sur une autre page
-			this.getServletContext().getRequestDispatcher("/Pages/Connexion/").forward(request, response);
+			this.getServletContext().getRequestDispatcher("/SerieShow/Connexion/").forward(request, response);
 		}
 	}
 	/**

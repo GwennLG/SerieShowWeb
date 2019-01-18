@@ -238,6 +238,10 @@ font-family: 'Roboto', sans-serif;
 background-color: #d3d3d3;
 }
 
+.CheckBox{
+background-color: #faf9f9;
+}
+
 form .contenu fieldset p{
     min-width: 400px;
 }
@@ -311,7 +315,7 @@ footer{
 }
 
 footer .row{
-    width: 33.33%;
+    width: 50%;
     justify-content: space-between;
     text-align: center;
 }
@@ -341,8 +345,8 @@ footer li a{
 }
 
 .row a{
- text-decoration: none;
- color: black;
+ 	text-decoration: none;
+	color: black;
 }
 
 .row .para2{
@@ -472,6 +476,14 @@ footer ul a:hover{
                     <span id="missmdp"></span>
                    </fieldset>
 
+                    <p>
+                        <label for="Nom">Vérification</label>
+                        <input type="password" name="password" id="password-0" class="Password" minlength="8" maxlength="250"
+                            title="Votre mot de passe min 8 caractères" placeholder="Password" required="required"
+                            tabindex="1" />
+                    </p>
+                    <span id="missmdp"></span>
+                    
                 <fieldset class="submit">
                     <p>
                         <input type="submit" value="Créer un compte" id="bouton_envoi" />
