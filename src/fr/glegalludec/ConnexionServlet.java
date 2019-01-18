@@ -35,16 +35,16 @@ public class ConnexionServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		// Vérifier la présence d'une session
+		// Vï¿½rifier la prï¿½sence d'une session
 		HttpSession session = request.getSession();
 
 		if (session.getAttribute(LoginPostName.EMAIL.getName()) != null) {
-			response.sendRedirect("/SerieShow/Gestion");
+			response.sendRedirect("/SerieShow/Pages/Gestion");
 			
 			return;
 		} else {
-			// Si une session existe, on redirige sur une autre page
-			this.getServletContext().getRequestDispatcher("/SerieShow/Connexion/").forward(request, response);
+			// Si une session n'existe pas, on redirige sur une autre page
+			this.getServletContext().getRequestDispatcher("/Pages/Connexion/").forward(request, response);
 		}
 	}
 	/**
@@ -57,7 +57,7 @@ public class ConnexionServlet extends HttpServlet {
 		
 		String email = "", password = "";
 
-		// Vérifier la présence de ces champs requis dans la requete
+		// Vï¿½rifier la prï¿½sence de ces champs requis dans la requete
 		if (PostNamesChecker.areNamesFoundInPostRequest(request, requiredNames)) {
 			email = request.getParameter(LoginPostName.EMAIL.getName());
 			password = request.getParameter(LoginPostName.PASSWORD.getName());
@@ -66,7 +66,7 @@ public class ConnexionServlet extends HttpServlet {
 			User user = DataBaseUser.selectByPseudoOrEmail(email);
 			if (user != null) {
 
-				// Vérifier son mot de passe
+				// Vï¿½rifier son mot de passe
 				if (user.getPassword().equals(password)) {
 					HttpSession session = request.getSession();
 					session.setAttribute(LoginPostName.EMAIL.getName(), email);

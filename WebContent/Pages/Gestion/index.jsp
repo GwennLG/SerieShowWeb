@@ -475,9 +475,14 @@ footer h2:hover{
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: -50px;
+    padding : 0;
 }
 .titre{
     padding-left: 95px;
+}
+
+.series h1{
+width : 100%;
 }
 </style>
 </head>

@@ -139,7 +139,7 @@ nav #menu ul li {
 	-moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
 	-webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
 	box-shadow: 0 1px 0 #111111, 0 2px 1 #777777;
-	/*Séparation des menus*/
+	/*Sï¿½paration des menus*/
 }
 
 nav #menu ul a:hover {
@@ -174,7 +174,7 @@ nav #menu ul li:first-child a:after {
 	border-right: 5px solid transparent;
 	border-bottom: 8px solid #444;
 
-	/* faire un élément fantome ::after
+	/* faire un ï¿½lï¿½ment fantome ::after
  */
 }
 
@@ -490,18 +490,14 @@ footer.compteur {
 					<ul>
 						<li><a href="#"> Drame </a></li>
 						<li><a href="#"> Thriller </a></li>
-						<li><a href="#"> Comédie </a></li>
+						<li><a href="#"> Comï¿½die </a></li>
 						<li><a href="#"> Sciences-fiction </a></li>
 						<li><a href="#"> Policier </a></li>
 						<li><a href="#"> Aventure </a></li>
 						<li><a href="#"> Musicale </a></li>
 						<li><a href="#"> Action </a></li>
 					</ul>
-<<<<<<< HEAD
 				<li><a href="/SerieShow/Connexion"> Connexion </a></li>
-=======
-				<li><a href="/SerieShow/ConnexionServlet"> Connexion </a></li>
->>>>>>> 89ccd52134d47573896b4bbc9e327e1c11f597ef
 			</ul>
 		</nav>
 	</header>
@@ -527,12 +523,12 @@ footer.compteur {
 					<a href="#"> Retour de Good Doctor on TV</a>
 				</h1>
 				<h2 class="card_sub">Virus</h2>
-				<p class="card_description">Après un mois d'arrêt et un épisode
-					à la fois altant et déprimant, Shawn est de retour sur vos écrans.
-					Le dernier épisode vous a laissé dans l'attente suprême. Comment
+				<p class="card_description">Aprï¿½s un mois d'arrï¿½t et un ï¿½pisode
+					ï¿½ la fois altant et dï¿½primant, Shawn est de retour sur vos ï¿½crans.
+					Le dernier ï¿½pisode vous a laissï¿½ dans l'attente suprï¿½me. Comment
 					vont ils s'en sortir? Lim est elle encore en vie ? La quarantaine
 					va-t-elle encore faire des victimes ? Plus que 7 jours pour le
-					découvrir.</p>
+					dï¿½couvrir.</p>
 			</div>
 
 			<footer class="card_footer">
@@ -561,12 +557,12 @@ footer.compteur {
 					<a href="#"> GA is back </a>
 				</h1>
 				<h2 class="card_sub">Choix</h2>
-				<p class="card_description">Après un mois d'arrêt et un épisode
-					à la fois altant et déprimant, Shawn est de retour sur vos écrans.
-					Le dernier épisode vous a laissé dans l'attente suprême. Comment
+				<p class="card_description">Aprï¿½s un mois d'arrï¿½t et un ï¿½pisode
+					ï¿½ la fois altant et dï¿½primant, Shawn est de retour sur vos ï¿½crans.
+					Le dernier ï¿½pisode vous a laissï¿½ dans l'attente suprï¿½me. Comment
 					vont ils s'en sortir? Lim est elle encore en vie ? La quarantaine
 					va-t-elle encore faire des victimes ? Plus que 7 jours pour le
-					découvrir.</p>
+					dï¿½couvrir.</p>
 			</div>
 
 			<footer class="card_footer">
@@ -592,15 +588,15 @@ footer.compteur {
 					<a href="#">Photos</a>
 				</div>
 				<h1 class="card_title">
-					<a href="#"> Nouveauté Black Sails </a>
+					<a href="#"> Nouveautï¿½ Black Sails </a>
 				</h1>
 				<h2 class="card_sub">I</h2>
-				<p class="card_description">Après un mois d'arrêt et un épisode
-					à la fois altant et déprimant, Shawn est de retour sur vos écrans.
-					Le dernier épisode vous a laissé dans l'attente suprême. Comment
+				<p class="card_description">Aprï¿½s un mois d'arrï¿½t et un ï¿½pisode
+					ï¿½ la fois altant et dï¿½primant, Shawn est de retour sur vos ï¿½crans.
+					Le dernier ï¿½pisode vous a laissï¿½ dans l'attente suprï¿½me. Comment
 					vont ils s'en sortir? Lim est elle encore en vie ? La quarantaine
 					va-t-elle encore faire des victimes ? Plus que 7 jours pour le
-					découvrir.</p>
+					dï¿½couvrir.</p>
 			</div>
 
 			<footer class="card_footer">
@@ -637,7 +633,7 @@ footer.compteur {
 					<li>Informations</li>
 				</a>
 				<a href="#">
-					<li>Nouveautés</li>
+					<li>Nouveautï¿½s</li>
 				</a>
 			</ul>
 
@@ -649,13 +645,13 @@ footer.compteur {
 			</a>
 			<div class="tag">
 				<a href="#">
-					<p>Exclusivité</p>
+					<p>Exclusivitï¿½</p>
 				</a> <a href="#">
 					<p>Populaire</p>
 				</a> <a href="#">
-					<p>Dernières</p>
+					<p>Derniï¿½res</p>
 				</a> <a href="#">
-					<p>Séries</p>
+					<p>Sï¿½ries</p>
 				</a>
 			</div>
 			<div class="visites">
