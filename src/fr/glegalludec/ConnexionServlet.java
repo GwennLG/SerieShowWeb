@@ -44,7 +44,7 @@ public class ConnexionServlet extends HttpServlet {
 			return;
 		} else {
 			// Si une session existe, on redirige sur une autre page
-			this.getServletContext().getRequestDispatcher("/Pages/Connexion/").forward(request, response);
+			this.getServletContext().getRequestDispatcher("/SerieShow/Connexion/").forward(request, response);
 		}
 	}
 	/**
@@ -71,7 +71,7 @@ public class ConnexionServlet extends HttpServlet {
 					HttpSession session = request.getSession();
 					session.setAttribute(LoginPostName.EMAIL.getName(), email);
 					session.setAttribute(LoginPostName.PASSWORD.getName(), password);
-					response.sendRedirect("/ServletEtJSP/EspaceMembre");
+					response.sendRedirect("/SerieShow/EspaceMembre");
 
 				} else {
 					this.loginErrorMessage = "Le mot de passe est incorrect !";
