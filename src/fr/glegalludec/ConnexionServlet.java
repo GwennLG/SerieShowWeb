@@ -39,7 +39,7 @@ public class ConnexionServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 
 		if (session.getAttribute(LoginPostName.EMAIL.getName()) != null) {
-			response.sendRedirect("/SerieShow/EspaceMembre");
+			response.sendRedirect("/SerieShow/Gestion");
 			
 			return;
 		} else {
