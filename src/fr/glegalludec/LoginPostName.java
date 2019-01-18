@@ -4,7 +4,9 @@ public enum LoginPostName {
 	EMAIL("email"),
 	PASSWORD("password"),
 	NAME("name"),
-	STAYCO("stayco");
+	STAYCO("stayco"),
+	PASSWORD_C("passwordm"),
+	PASSWORD_CF("passwordc");
 
 	private String name;
 	

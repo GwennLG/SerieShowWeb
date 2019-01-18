@@ -16,7 +16,7 @@ import fr.glegalludec.User;
 /**
  * Servlet implementation class ConnexionServlet
  */
-@WebServlet("/ConnexionServlet")
+@WebServlet("/Connexion")
 public class ConnexionServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private String loginErrorMessage = "";
@@ -71,7 +71,7 @@ public class ConnexionServlet extends HttpServlet {
 					HttpSession session = request.getSession();
 					session.setAttribute(LoginPostName.EMAIL.getName(), email);
 					session.setAttribute(LoginPostName.PASSWORD.getName(), password);
-					response.sendRedirect("/ServletEtJSP/EspaceMembre");
+					response.sendRedirect("/SerieShow/EspaceMembre");
 
 				} else {
 					this.loginErrorMessage = "Le mot de passe est incorrect !";

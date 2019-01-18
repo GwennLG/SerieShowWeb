@@ -32,7 +32,7 @@ public class Deconnexion extends HttpServlet {
 		{
 			request.getSession().invalidate();
 		}
-		response.sendRedirect("/SerieShow/AccueilServlet");
+		response.sendRedirect("/SerieShow/Accueil");
 	}
 
 	/**
@@ -41,6 +41,8 @@ public class Deconnexion extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+		
+		
 	}
 
 }

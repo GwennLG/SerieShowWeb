@@ -375,12 +375,12 @@ footer ul a:hover{
 <header class="top">
 
         <div class=logo>
-            <a href="#" target="_blank"><img src="images/ancien-poste-television-icone_23-2147501665.jpg" alt="Serie"></a>
+            <a href="/SerieShow/Accueil" target="_blank"><img src="images/ancien-poste-television-icone_23-2147501665.jpg" alt="Serie"></a>
         </div>
 
         <nav>
             <ul id="menu">
-                <li><a href="#"> Accueil </a></li>
+                <li><a href="/SerieShow/Accueil"> Accueil </a></li>
                 <li><a href="#"> genre </a>
                     <ul class="genre">
                         <li><a href="#">Drame</a></li>
@@ -393,7 +393,7 @@ footer ul a:hover{
                         <li><a href="#">Action</a></li>
                     </ul>
                 </li>
-                <li><a href="#"> Connexion </a></li>
+                <li><a href="/SerieShow/Connexion"> Connexion </a></li>
             </ul>
         </nav>
 
@@ -470,6 +470,7 @@ footer ul a:hover{
                             tabindex="1" />
                     </p>
                     <span id="missmdp"></span>
+                   </fieldset>
 
                 <fieldset class="submit">
                     <p>
